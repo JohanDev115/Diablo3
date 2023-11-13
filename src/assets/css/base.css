@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: diablo;
+  src: url('../fonts/diablo_h.ttf');
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  color: #fff;
+  background: rgb(25, 24, 24);
+  line-height: 1.6;
+  font-family: diablo;
+}
